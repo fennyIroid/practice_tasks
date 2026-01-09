@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "922242825564",
+    "project_id": "practicetasks-b9064",
+    "storage_bucket": "practicetasks-b9064.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922242825564:android:746de9d45289566e8a5599",
+        "android_client_info": {
+          "package_name": "com.example.practice_tasks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922242825564-5douhvcnegdotdb8bb5aupridg2o7nrq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.practice_tasks",
+            "certificate_hash": "de5c690892dba3c531cc23d7bb3a238e8898bd0c"
+          }
+        },
+        {
+          "client_id": "922242825564-1pd4p19d1r3kg1tpjh71nj44jiraqsn5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtr8ipF9Bje3jDscDpqwMc_30orzom6BU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922242825564-1pd4p19d1r3kg1tpjh71nj44jiraqsn5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
