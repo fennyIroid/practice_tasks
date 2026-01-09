@@ -22,3 +22,5 @@ object SocketManager {
         socket.disconnect()
     }
 }
+
+//Kotlin change
