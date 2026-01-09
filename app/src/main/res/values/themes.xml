@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- ================= BASE APPLICATION THEME ================= -->
+    <style name="Base.Theme.Practice_tasks" parent="Theme.AppCompat.DayNight.NoActionBar">
+
+        <!-- Background -->
+        <item name="android:windowBackground">@color/bg_screen</item>
+
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary</item>
+        <item name="colorAccent">@color/color_primary</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+
+    </style>
+
+    <!-- ================= LABEL TEXT ================= -->
+    <style name="LabelText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
+    </style>
+
+    <!-- ================= INPUT FIELD ================= -->
+    <style name="inputField">
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:padding">14dp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+    </style>
+
+    <!-- ================= PRIMARY BUTTON ================= -->
+    <style name="primaryButton">
+        <item name="android:background">@drawable/bg_button_primary</item>
+        <item name="android:textColor">@color/bg_surface</item>
+        <item name="android:paddingVertical" tools:ignore="NewApi">14dp</item>
+        <item name="android:textStyle">bold</item>
+
+
+        <item name="android:backgroundTint">@null</item>
+    </style>
+
+    <!-- ================= SECONDARY BUTTON ================= -->
+    <style name="secondaryButton">
+        <item name="android:background">@drawable/bg_button_outline</item>
+        <item name="android:textColor">@color/color_primary</item>
+        <item name="android:paddingVertical" tools:ignore="NewApi">14dp</item>
+        <item name="android:textStyle">bold</item>
+
+
+        <item name="android:backgroundTint">@null</item>
+    </style>
+
+    <!-- ================= FINAL THEME ================= -->
+    <style name="Theme.Practice_tasks" parent="Base.Theme.Practice_tasks" />
+
+    <style name="Theme.PracticeTasks.Material" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Optional customization later -->
+    </style>
+
+</resources>

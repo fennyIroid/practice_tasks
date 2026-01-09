@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".task14Retrofit.ui.notes.NotesActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notes"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Title"
+        style="@style/inputField"
+        android:id="@+id/edtTxtTitle"
+        android:layout_margin="16dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Note"
+        style="@style/inputField"
+        android:id="@+id/edtTxtNote"
+        android:layout_margin="16dp"/>
+
+    <Button
+        android:id="@+id/btnAddNote"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        style="@style/primaryButton"
+        android:text="Add Note"
+        android:layout_margin="16dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtError"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/btnRetry"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        style="@style/primaryButton"
+        android:text="Retry"
+        android:visibility="gone"
+        android:layout_margin="16dp"
+        android:layout_gravity="center_horizontal"/>
+    
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/recyclerView"/>
+
+</LinearLayout>

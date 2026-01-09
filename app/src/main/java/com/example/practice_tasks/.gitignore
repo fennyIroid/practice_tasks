@@ -1,0 +1,38 @@
+# Gradle
+.gradle/
+build/
+
+# Local config
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+
+# Kotlin
+.kotlin/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# APKs
+*.apk
+*.aab
+
+# Node / Backend (DO NOT COMMIT)
+node_modules/
+package-lock.json
+package.json
+server.js
+
+# Nested repo (DO NOT COMMIT)
+github-basics-demo/
+
+# Misc
+Profile_avatar.png

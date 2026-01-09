@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <androidx.constraintlayout.helper.widget.Flow
+                android:id="@+id/flow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:constraint_referenced_ids="btnViewBinding,btnDataBinding,btnScopeFunctions,btnUiComponent,btnLayoutTask,btnStyleTask,btnFragment,btnIntentTask,btnNavigationGraph,btnPermissionImgPick,btnTask11,btnTask12,btnTask13,btnRetrofit,btnMultipart,btnPushNotification,btnCrashlytics,btnCoroutines,btnStateflow,btnArchitecture,btnHilt,btnComposeIntro,btnComposeCore,btn3rdParty,btnMaps,btnSocialLogin,btnSocket"
+                app:flow_horizontalGap="16dp"
+                app:flow_maxElementsWrap="2"
+                app:flow_verticalGap="16dp"
+                app:flow_wrapMode="chain"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btnViewBinding"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="View Binding Task" />
+
+            <Button
+                android:id="@+id/btnDataBinding"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Data Binding Task" />
+
+            <Button
+                android:id="@+id/btnScopeFunctions"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Scope Fun Task" />
+
+            <Button
+                android:id="@+id/btnUiComponent"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="UI Component Task" />
+
+            <Button
+                android:id="@+id/btnLayoutTask"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Layout Task" />
+
+            <Button
+                android:id="@+id/btnStyleTask"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Styles Task" />
+
+            <Button
+                android:id="@+id/btnFragment"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Fragment Task" />
+
+            <Button
+                android:id="@+id/btnIntentTask"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Intent Task"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnNavigationGraph"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Navigation Graph" />
+
+            <Button
+                android:id="@+id/btnPermissionImgPick"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Permission Img Pick" />
+
+            <Button
+                android:id="@+id/btnTask11"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Task 11(SP)" />
+
+            <Button
+                android:id="@+id/btnTask12"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Task 12(DB)" />
+
+            <Button
+                android:id="@+id/btnTask13"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="WorkManager" />
+
+            <Button
+                android:id="@+id/btnRetrofit"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Retrofit" />
+
+            <Button
+                android:id="@+id/btnMultipart"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="MultiPart" />
+
+            <Button
+                android:id="@+id/btnPushNotification"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Push Notification" />
+
+            <Button
+                android:id="@+id/btnCrashlytics"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Crashlytics" />
+
+            <Button
+                android:id="@+id/btnCoroutines"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Coroutines" />
+
+            <Button
+                android:id="@+id/btnStateflow"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="State Flow" />
+
+            <Button
+                android:id="@+id/btnArchitecture"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Architecture" />
+
+            <Button
+                android:id="@+id/btnHilt"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Hilt" />
+
+            <Button
+                android:id="@+id/btnComposeIntro"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Compose Intro" />
+
+            <Button
+                android:id="@+id/btnComposeCore"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Compose Core" />
+
+            <Button
+                android:id="@+id/btn3rdParty"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="3rd Party Integration" />
+
+            <Button
+                android:id="@+id/btnMaps"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Maps" />
+
+            <Button
+                android:id="@+id/btnSocialLogin"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Social Login" />
+
+            <Button
+                android:id="@+id/btnSocket"
+                style="@style/primaryButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="sockets" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

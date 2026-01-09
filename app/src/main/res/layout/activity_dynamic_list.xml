@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingTop="40dp"
+    tools:context=".task3Ui.DynamicListActivity">
+
+
+    <EditText
+        android:id="@+id/edtTxtName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:background="@drawable/edittext_border"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edtTxtAge"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_border"
+        android:hint="Enter Age"
+        android:inputType="number"
+        android:layout_margin="10dp"
+        />
+
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerCity"
+        android:background="@drawable/edittext_border"
+        android:layout_margin="10dp"/>
+
+    <RadioGroup
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_border"
+        android:layout_margin="10dp"
+        android:id="@+id/radioGroup"
+        android:orientation="horizontal">
+        
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbMale"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:text="Male"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbFemale"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:text="Female"/>"
+
+    </RadioGroup>
+
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/edittext_border"
+      android:layout_margin="10dp"
+      android:orientation="horizontal">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Select Hobbies :"/>
+
+      <CheckBox
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/cbSports"
+         android:layout_margin="10dp"
+          android:text="Sports"/>
+
+      <CheckBox
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/cbTravel"
+          android:text="Travel"
+          android:layout_margin="10dp"/>
+
+<!--      <CheckBox-->
+<!--          android:layout_width="wrap_content"-->
+<!--          android:layout_height="wrap_content"-->
+<!--          android:id="@+id/cbReading"-->
+<!--          android:layout_margin="10dp"-->
+<!--          android:text="Reading"/>-->
+  </LinearLayout>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switchActive"
+        android:layout_margin="10dp"
+        android:background="@drawable/edittext_border"
+        android:text="Active User"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar"
+        android:layout_margin="10dp"
+        android:stepSize="1.0"
+        android:numStars="5"/>
+
+    <Button
+        android:id="@+id/btnAddUser"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Add User"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/btnShowList"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Show List"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".task13Workmanager.Task13MainActivity">
+
+    <EditText
+        android:id="@+id/etFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Feedback"
+        style="@style/inputField"
+        android:gravity="center_horizontal"
+        android:layout_margin="12dp"
+        />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        style="@style/secondaryButton"
+        android:layout_marginTop="10dp"
+        android:text="Submit"/>
+
+
+</LinearLayout>

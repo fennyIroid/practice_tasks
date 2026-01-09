@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".task11SPandDataStore.DataStoreActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/LabelText"
+        android:text="Data Store"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="170dp"/>
+
+    <EditText
+        android:id="@+id/edtTxtName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        style="@style/inputField"
+        android:hint="Enter Name"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/edtTxtAge"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        style="@style/inputField"
+        android:hint="Enter Age"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Switch
+        android:id="@+id/switchDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dark Mode"
+        style="@style/inputField"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_margin="10dp"
+            style="@style/secondaryButton"/>
+
+
+        <Button
+            android:id="@+id/btnCounter"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Counter"
+            style="@style/secondaryButton"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/LabelText"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

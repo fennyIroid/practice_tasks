@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Practice_tasks"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".task28Socket.SocketMainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_socket_main"
+            android:theme="@style/Theme.Practice_tasks" />
+        <activity
+            android:name=".task27SocialLogin.ui.SocialLoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_social_login"
+            android:theme="@style/Theme.Practice_tasks" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAAp16ZH3h5Nf7elFd7jeuVaQoLSiXdKy8" />
+
+        <activity
+            android:name=".task26Maps.MapsComposeDemo"
+            android:exported="false"
+            android:label="@string/title_activity_maps_compose_demo"
+            android:theme="@style/Theme.Practice_tasks"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".task253rdPartyLib.StudentDashBoard"
+            android:exported="false"
+            android:label="@string/title_activity_student_dash_board"
+            android:theme="@style/Theme.Practice_tasks" />
+        <activity
+            android:name=".task24ComposeCore.HabitTracker"
+            android:exported="false"
+            android:label="@string/title_activity_habit_tracker"
+            android:theme="@style/Theme.Practice_tasks" />
+        <activity
+            android:name=".task23ComposeBasic.ComposeBasicMainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_compose_basic_main"
+            android:theme="@style/Theme.Practice_tasks" />
+        <activity
+            android:name=".task22Hilt.ui.SettingsActivityTask22"
+            android:exported="false" />
+        <activity
+            android:name=".task21Architechture.ui.dashboard.HabitDashboardActivity"
+            android:exported="false"
+            android:label="@string/title_activity_habit_dashboard"
+            android:theme="@style/Theme.Practice_tasks" />
+        <activity
+            android:name=".task19Stateflow.ui.StateFlowMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".task18Coroutines.ui.DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".task17FirebaseCrashlytics.Task17MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".task16PushNotifications.ReminderDetailsActivity"
+            android:exported="false" />
+
+        <service
+            android:name=".task16PushNotifications.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".task15MultipartApi.ui.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".task14Retrofit.ui.notes.NotesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".task13Workmanager.Task13MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".task12DBRoom_ExpenseTracker.activity.AddExpenseActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PracticeTasks.Material" />
+        <activity
+            android:name=".task12DBRoom_ExpenseTracker.activity.ExpenseListActivity"
+            android:exported="false"
+            android:theme="@style/Theme.PracticeTasks.Material" />
+        <activity
+            android:name=".task11SPandDataStore.DataStoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".task11SPandDataStore.Task11MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".task11SPandDataStore.SharedPrefrencesMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".task10PermissionImgPick.PermissionImgPickMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".task9NavigationGraph.NavGraphMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".task8intents.ShareReceiverActivity"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".task8intents.IntentMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".task7Fragments.MainActivityFragment"
+            android:exported="false" />
+        <activity
+            android:name=".task5Styles.ThemesPracticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".task4Layouts.LayoutPracticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".task3Ui.UserListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".task3Ui.DynamicListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".task2.ScopeFunctionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".task2.DataBindingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".task2.ViewBindingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
