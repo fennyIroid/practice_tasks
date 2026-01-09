@@ -92,6 +92,7 @@ fun SocketDemoScreen() {
         verticalArrangement = Arrangement.Center
     ) {
         Text(text = "Status: $connectionStatus")
+        Text("UI Change")
         Spacer(modifier = Modifier.height(16.dp))
         Text(text = "Received Message: $receivedMessage")
     }
