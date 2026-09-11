@@ -7,7 +7,7 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:922242825564:android:746de9d45289566e8a5599",
+        "mobilesdk_app_id": "YOUR_MOBILESDK_APP_ID",
         "android_client_info": {
           "package_name": "com.example.practice_tasks"
         }
@@ -28,7 +28,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBtr8ipF9Bje3jDscDpqwMc_30orzom6BU"
+          "current_key": "YOUR_FIREBASE_API_KEY"
         }
       ],
       "services": {
