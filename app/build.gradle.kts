@@ -1,4 +1,14 @@
 import org.gradle.kotlin.dsl.implementation
+import java.util.Properties
+
+// Maps key is read from local.properties (gitignored), never committed.
+val localProps = Properties().apply {
+    val f = rootProject.file("local.properties")
+    if (f.exists()) f.inputStream().use { load(it) }
+}
+val mapsApiKey: String = (localProps.getProperty("MAPS_API_KEY")
+    ?: System.getenv("MAPS_API_KEY")
+    ?: "")
 
 plugins {
     alias(libs.plugins.android.application)
@@ -32,6 +42,9 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+        manifestPlaceholders["MAPS_API_KEY"] = mapsApiKey
+        resValue("string", "google_maps_key", mapsApiKey)
     }
 
     buildTypes {

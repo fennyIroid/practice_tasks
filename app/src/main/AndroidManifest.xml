@@ -32,7 +32,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAAp16ZH3h5Nf7elFd7jeuVaQoLSiXdKy8" />
+            android:value="${MAPS_API_KEY}" />
 
         <activity
             android:name=".task26Maps.MapsComposeDemo"
